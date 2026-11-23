@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "TForce Custom Webparts",
+    "id": "898bb4dc-a9c9-4293-b2a2-d8579f5af36f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "developer": {
+      "name": "TForce",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.24.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "TForce Custom Webparts: service requests and approvals"
+      },
+      "longDescription": {
+        "default": "Service Catalogue & Request Form, My Requests, and Approvals & Queue web parts for TForceHub."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "TForce Custom Webparts",
+        "description": "Adds the TForce request web parts.",
+        "id": "10caf7a0-e76f-4374-87fb-8969f9b0193a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/tforce-custom-webparts.sppkg"
+  }
+}

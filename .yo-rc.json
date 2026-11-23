@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "tforce-custom-webparts",
+    "environment": "spo",
+    "packageManager": "npm",
+    "skipFeatureDeployment": true,
+    "useGulp": false,
+    "componentType": "webpart",
+    "template": "react",
+    "componentName": "ApprovalsQueue",
+    "componentDescription": "Approve requests and handle the service queue",
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "24.21.0",
+    "sdksVersions": {},
+    "version": "1.24.1",
+    "libraryName": "tforce-custom-webparts",
+    "libraryId": "898bb4dc-a9c9-4293-b2a2-d8579f5af36f",
+    "solutionShortDescription": "tforce-custom-webparts description"
+  }
+}

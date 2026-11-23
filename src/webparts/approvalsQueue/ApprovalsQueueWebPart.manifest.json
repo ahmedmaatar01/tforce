@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "5ead03ac-9c12-44f7-8386-4072b9d3a75d",
+  "alias": "ApprovalsQueueWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "a4b1f2c3-7d6e-4f58-9a0b-1c2d3e4f5a6b",
+      "group": {
+        "default": "TForce Custom Webparts"
+      },
+      "title": {
+        "default": "Approvals & Queue"
+      },
+      "description": {
+        "default": "Approve requests and handle the service queue."
+      },
+      "officeFabricIconFontName": "CheckboxComposite",
+      "properties": {
+        "title": "Waiting for my decision"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "tforce-custom-webparts": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/serviceCatalogue/ServiceCatalogueWebPart.js",
+          "manifest": "./src/webparts/serviceCatalogue/ServiceCatalogueWebPart.manifest.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/myRequests/MyRequestsWebPart.js",
+          "manifest": "./src/webparts/myRequests/MyRequestsWebPart.manifest.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/approvalsQueue/ApprovalsQueueWebPart.js",
+          "manifest": "./src/webparts/approvalsQueue/ApprovalsQueueWebPart.manifest.json"
+        },
+        {
+          "entrypoint": "./lib/webparts/requestAdmin/RequestAdminWebPart.js",
+          "manifest": "./src/webparts/requestAdmin/RequestAdminWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ServiceCatalogueWebPartStrings": "lib/webparts/serviceCatalogue/loc/{locale}.js",
+    "MyRequestsWebPartStrings": "lib/webparts/myRequests/loc/{locale}.js",
+    "ApprovalsQueueWebPartStrings": "lib/webparts/approvalsQueue/loc/{locale}.js",
+    "RequestAdminWebPartStrings": "lib/webparts/requestAdmin/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

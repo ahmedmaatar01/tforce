@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "8276c4f5-15d6-4ea5-b107-4f8f921a3377",
+  "alias": "ServiceCatalogueWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "a4b1f2c3-7d6e-4f58-9a0b-1c2d3e4f5a6b",
+      "group": {
+        "default": "TForce Custom Webparts"
+      },
+      "title": {
+        "default": "Service Catalogue & Request Form"
+      },
+      "description": {
+        "default": "Browse services and send a request."
+      },
+      "officeFabricIconFontName": "ShoppingCart",
+      "properties": {
+        "title": "What do you need?",
+        "myRequestsPageUrl": ""
+      }
+    }
+  ]
+}

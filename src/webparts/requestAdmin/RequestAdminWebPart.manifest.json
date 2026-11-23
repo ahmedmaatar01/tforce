@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "9fe79eba-5318-4fc0-899b-c7094342fe2b",
+  "alias": "RequestAdminWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "a4b1f2c3-7d6e-4f58-9a0b-1c2d3e4f5a6b",
+      "group": {
+        "default": "TForce Custom Webparts"
+      },
+      "title": {
+        "default": "Request Admin"
+      },
+      "description": {
+        "default": "Set up services, form fields, approval steps, categories, departments and employees."
+      },
+      "officeFabricIconFontName": "Settings",
+      "properties": {
+        "title": "Request set-up",
+        "admins": []
+      }
+    }
+  ]
+}

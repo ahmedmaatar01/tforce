@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "729b8a25-8199-466c-a6dc-2b24c1d10932",
+  "alias": "MyRequestsWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "a4b1f2c3-7d6e-4f58-9a0b-1c2d3e4f5a6b",
+      "group": {
+        "default": "TForce Custom Webparts"
+      },
+      "title": {
+        "default": "My Requests"
+      },
+      "description": {
+        "default": "Follow your requests step by step."
+      },
+      "officeFabricIconFontName": "TaskList",
+      "properties": {
+        "title": "My requests",
+        "catalogPageUrl": ""
+      }
+    }
+  ]
+}
